@@ -1,19 +1,17 @@
 {
-  "name": "s9_cicd2-main",
+  "name": "project13a",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://Nikhilchauhan3974.github.io/S9_CICD2-main",
+  "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-router-dom": "^7.13.0"
+    "react-dom": "^19.2.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",
